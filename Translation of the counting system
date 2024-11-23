@@ -1,0 +1,8 @@
+n = 79476
+s = ''
+while n > 0:
+    d = n % 7
+    s += str(d)
+    n = n // 7
+
+print(s[::-1])
